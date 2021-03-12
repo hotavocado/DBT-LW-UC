@@ -1,0 +1,47 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "suicide_thoughts",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": "\r\n\r\n![negative_thoughts.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/negative_thoughts.png =250x250)\r\n\r\nDid you have any thoughts about **suicide** today? (if yes, please rate the intensity of those thoughts)",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "0",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "1",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "2",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "3",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "4",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "5",
+                "@type": "schema:option"
+            }
+        ],
+        "schema:minValue": "No thoughts",
+        "schema:maxValue": "Acting on plan"
+    }
+}

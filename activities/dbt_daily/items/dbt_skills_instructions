@@ -1,0 +1,12 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dbt_skills_instructions",
+    "preamble": "DBT Skills",
+    "ui": {
+        "inputType": "markdown-message"
+    },
+    "question": "\r\n\r\n![DBTSkills.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/DBTSkills.png =250x250)\r\n\r\nIn this section, you'll be asked about the DBT skills you used today. If you did not use any of the skills listed, you can tap the \"Skip\" button."
+}

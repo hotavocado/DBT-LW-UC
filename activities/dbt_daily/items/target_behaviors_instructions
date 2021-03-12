@@ -1,0 +1,12 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "target_behaviors_instructions",
+    "preamble": "Target Behaviors",
+    "ui": {
+        "inputType": "markdown-message"
+    },
+    "question": "\r\n\r\n![targetBehaviorsDay.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/targetBehaviorsDay.png =250x250)\r\n\r\nIn this section, you'll be asked about your target behaviors, your urges, and whether you acted on them today."
+}

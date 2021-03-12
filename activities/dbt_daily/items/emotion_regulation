@@ -1,0 +1,61 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "emotion_regulation",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "dontKnow"
+        ]
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Reduced Vulnerability (PLEASE)",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/PLEASE.png"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Accumulate Positive Experiences",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/accumulatePositive.png"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Build Mastery",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/mastery.png"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Cope Ahead",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/copeAhead.png"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Check the Facts",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/checkFacts.png"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Problem Solve",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/problemSolve.png"
+            },
+            {
+                "schema:value": 7,
+                "schema:name": "Opposite Action",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/oppositeAction.png"
+            }
+        ]
+    },
+    "question": "\r\n\r\n![emotionRegulation.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/emotionRegulation.png =250x250)\r\n\r\nPlease check the **Emotion Regulation** skills you used today:"
+}

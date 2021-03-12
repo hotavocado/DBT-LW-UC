@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/DBT-LW-UC/master/protocols/DBT_diary_card_pilot/DBT_diary_card_pilot_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "DBT_diary_card_pilot_schema",
+    "skos:prefLabel": "DBT Daily Diary Card (U.C.)",
+    "schema:description": "Record your daily progress with Dialectical Behavorial Therapy",
+    "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/DBT.png",
+    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/protocols/DBT_diary_card_pilot/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "dbt_daily",
+                "isAbout": "dbt_daily",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "dbt_daily"
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "interpersonal_skills",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "dontKnow"
+        ]
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Objective Effectiveness (DEAR MAN)",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/DEARMAN.png"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Relationship Effectiveness (GIVE)",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/GIVE.png"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Self-respect Effectivness (FAST)",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/FAST.png"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Dialectics",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/dialectics.png"
+            }
+        ]
+    },
+    "question": "\r\n\r\n![interpersonalSkills.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/interpersonalSkills.png =250x250)\r\n\r\nPlease check the **Interpersonal Effectiveness** skills you used today:"
+}

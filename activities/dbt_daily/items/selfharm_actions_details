@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "selfharm_actions_details",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "\r\n\r\n![behaviorAct.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/behaviorAct.png =250x250)\r\n\r\nWhat action(s) did you take?"
+}
