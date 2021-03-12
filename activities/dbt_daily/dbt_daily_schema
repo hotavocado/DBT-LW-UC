@@ -80,7 +80,7 @@
             {
                 "variableName": "suicide_actions_details",
                 "isAbout": "suicide_actions_details",
-                "isVis": "suicide_actions > 0"
+                "isVis": "suicide_actions == 0"
             },
             {
                 "variableName": "selfharm_thoughts",
@@ -100,7 +100,7 @@
             {
                 "variableName": "selfharm_actions_details",
                 "isAbout": "selfharm_actions_details",
-                "isVis": "selfharm_actions > 0"
+                "isVis": "selfharm_actions == 0"
             },
             {
                 "variableName": "bedtime",
