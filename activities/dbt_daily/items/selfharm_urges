@@ -7,7 +7,7 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\n![behaviorUrges.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/behaviorUrges.png =250x250)\r\n\r\nDid you have any urges related to **self-harm** today? (if yes, please rate the intensity of those urges)",
+    "question": "\r\n\r\n![behaviorUrges.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/behaviorUrges.png =250x250)\r\n\r\nDid you have any urges related to **self-harm (i.e. cutting, skin picking)** today? (if yes, please rate the intensity of those urges)",
     "responseOptions": {
         "choices": [
             {

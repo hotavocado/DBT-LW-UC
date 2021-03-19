@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "eating_behavior",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "bingeing",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "purging",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "restricting",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "other",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": "\r\n\r\n![meal.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/meal.png =250x250)\r\n\r\nDid you engage in any of these **eating behaviors** today?"
+}

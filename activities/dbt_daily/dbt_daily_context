@@ -82,6 +82,22 @@
             "@id": "dbt_daily:school_work",
             "@type": "@id"
         },
+        "eating_behavior": {
+            "@id": "dbt_daily:eating_behavior",
+            "@type": "@id"
+        },
+        "eating_behavior_other": {
+            "@id": "dbt_daily:eating_behavior_other",
+            "@type": "@id"
+        },
+        "eat_regular": {
+            "@id": "dbt_daily:eat_regular",
+            "@type": "@id"
+        },
+        "panic_attack": {
+            "@id": "dbt_daily:panic_attack",
+            "@type": "@id"
+        },
         "dbt_skills_instructions": {
             "@id": "dbt_daily:dbt_skills_instructions",
             "@type": "@id"

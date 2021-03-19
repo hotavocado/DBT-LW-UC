@@ -113,6 +113,26 @@
                 "isVis": true
             },
             {
+                "variableName": "eating_behavior",
+                "isAbout": "eating_behavior",
+                "isVis": true
+            },
+            {
+                "variableName": "eating_behavior_other",
+                "isAbout": "eating_behavior_other",
+                "isVis": "eating_behavior.includes(4)"
+            },
+            {
+                "variableName": "eat_regular",
+                "isAbout": "eat_regular",
+                "isVis": true
+            },
+            {
+                "variableName": "panic_attack",
+                "isAbout": "panic_attack",
+                "isVis": true
+            },
+            {
                 "variableName": "dbt_skills_instructions",
                 "isAbout": "dbt_skills_instructions",
                 "isVis": true
@@ -169,6 +189,10 @@
             "selfharm_actions_details",
             "bedtime",
             "school_work",
+            "eating_behavior",
+            "eating_behavior_other",
+            "eat_regular",
+            "panic_attack",
             "dbt_skills_instructions",
             "mindfulness_skills",
             "interpersonal_skills",

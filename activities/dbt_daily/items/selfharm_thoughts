@@ -7,7 +7,7 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\n![negative_thoughts.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/negative_thoughts.png =250x250)\r\n\r\nDid you have any thoughts about **self-harm** today? (if yes, please rate the intensity of those thoughts)",
+    "question": "\r\n\r\n![negative_thoughts.png](https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/negative_thoughts.png =250x250)\r\n\r\nDid you have any thoughts about **self-harm (i.e. cutting, skin picking)** today? (if yes, please rate the intensity of those thoughts)",
     "responseOptions": {
         "choices": [
             {
