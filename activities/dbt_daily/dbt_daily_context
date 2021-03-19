@@ -74,14 +74,6 @@
             "@id": "dbt_daily:selfharm_actions_details",
             "@type": "@id"
         },
-        "bedtime": {
-            "@id": "dbt_daily:bedtime",
-            "@type": "@id"
-        },
-        "school_work": {
-            "@id": "dbt_daily:school_work",
-            "@type": "@id"
-        },
         "eating_behavior": {
             "@id": "dbt_daily:eating_behavior",
             "@type": "@id"

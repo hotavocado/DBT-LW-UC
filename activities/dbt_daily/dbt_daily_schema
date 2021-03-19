@@ -103,16 +103,6 @@
                 "isVis": "selfharm_actions == 1"
             },
             {
-                "variableName": "bedtime",
-                "isAbout": "bedtime",
-                "isVis": true
-            },
-            {
-                "variableName": "school_work",
-                "isAbout": "school_work",
-                "isVis": true
-            },
-            {
                 "variableName": "eating_behavior",
                 "isAbout": "eating_behavior",
                 "isVis": true
@@ -187,8 +177,6 @@
             "selfharm_urges",
             "selfharm_actions",
             "selfharm_actions_details",
-            "bedtime",
-            "school_work",
             "eating_behavior",
             "eating_behavior_other",
             "eat_regular",
